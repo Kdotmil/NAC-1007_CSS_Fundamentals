@@ -1,0 +1,98 @@
+/* INTRODUCTION TO CSS SECTION */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Exercise: Element Selector */
+replace_me {
+    font-weight: bold;
+}
+
+/* Exercise: Class Selector */
+.class-selector {
+      color: white;
+      background-color: blueviolet;
+      padding: 10px;
+}
+
+/* Exercise: ID Selector */
+#id-selector {
+      color: purple;
+      background-color: green;
+      padding:6px;
+      border: 5px solid black;
+}
+
+/* Exercise: Element Selector */
+h3, h4 {
+   font-style: italic;
+   color: #007bff;
+}
+
+/* Exercise: Attribute Selector */
+.attribute-selector {
+   text-decoration: none;
+   color: green;
+}
+
+/* Exercise: Specificity Rules */
+#specificity-rules.box {
+    background-color: #007bff;
+    font-size: 14px;
+}
+.box {
+    background-color: #fb4d4d;
+    font-size: 24px;
+}
+
+/* BOX MODEL SECTION */
+
+/* Exercise #8: Box Model */
+.box-model {
+   margin: 20px;
+   padding: 15px;
+   border: 2px solid black
+}
+
+/* Exercise: Percentage Width and Height */
+.percentage-box {
+   width: 50%;
+   height: 50%;
+   background-color: #2200ff;
+}
+
+/* Exercise: Pixel Width and Height */
+.pixel-box {
+   width: 200px;
+   height: 200px;
+   background-color: #f0f0f0;
+}
+
+/* TYPOGRAPHY AND COLOR SECTION */
+
+/* Exercise: Font Properties */
+.font-properties {
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 18px;
+   font-weight: bold;
+   line-height: 1.5;
+   color: #a90707
+}
+
+/* Exercise: Text Alignment and Decoration */
+.text-styles {
+   text-align: center;
+}
+.text-styles p {
+   text-decoration: underline;
+}
+.text-styles h2 {
+   text-transform: uppercase;
+}
+
+/* Exercise: Color Properties */
+.color-properties {
+   color: #05005e;
+   background-color: #f0f0f0;
+}
